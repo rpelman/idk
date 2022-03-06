@@ -1,0 +1,30 @@
+
+<html>
+<head>
+  <title>guessing game</title>
+  </head>
+  <body>
+    <h1>welcome to raviv's guessing game</h1>
+<h6>to play there will be a number chosen between 0 10  </h6>
+<script >
+  function guess(){
+  var number = Math.round(Math.random()*10)
+var guess = prompt("guess a number" )
+if(guess > number ){
+  prompt("to hight try again")
+
+}
+else if(guess < number ){
+  prompt("to low try again")}
+
+document.write("the number was "+ number)
+  }
+</script>
+<button onclick="guess()">play game</button>
+<h6>thank for playing!!!</h6>
+
+
+
+
+</body>
+</html>
